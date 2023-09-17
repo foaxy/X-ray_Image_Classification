@@ -4,7 +4,7 @@
 
 ## Business Understanding
 
-Safer Health Centre aims to improve patient care and diagnosis accuracy by integrating advanced technology into their medical processes. To achieve this, they want to implement a deep learning model that can classify whether a pediatric patient has pneumonia or not based on chest x-ray images. This initiative aligns with their mission of providing the best care using advanced technology in an atmosphere of trust, safety, and comfort. The current diagnostic process, while effective, relies heavily on the expertise of medical professionals and can be time-consuming. To enhance diagnostic efficiency and accuracy, there is a need to develop an automated system that can classify whether a pediatric patient has pneumonia or not based on chest x-ray images.
+Safer Health Center aims to improve patient care and diagnosis accuracy by integrating advanced technology into their medical processes. To achieve this, they want to implement a deep learning model that can classify whether a pediatric patient has pneumonia or not based on chest x-ray images. This initiative aligns with their mission of providing the best care using advanced technology in an atmosphere of trust, safety, and comfort. The current diagnostic process, while effective, relies heavily on the expertise of medical professionals and can be time-consuming. To enhance diagnostic efficiency and accuracy, there is a need to develop an automated system that can classify whether a pediatric patient has pneumonia or not based on chest x-ray images.
 
 ## Problem Statement
 
@@ -12,17 +12,17 @@ The key problems to address in this project are as follows:
 
 - **Manual Diagnosis Limitations**: The current manual diagnosis of pneumonia from chest x-ray images is subjective, time-intensive, and can be prone to errors due to human variability.
 
-- **Scaling Diagnostic Capability**: Safer Health Centre desires to scale its diagnostic capabilities by incorporating advanced technology, allowing for faster and more consistent diagnosis, especially in cases of a high patient load.
+- **Scaling Diagnostic Capability**: Safer Health Center desires to scale its diagnostic capabilities by incorporating advanced technology, allowing for faster and more consistent diagnosis, especially in cases of a high patient load.
 
 - **Accuracy and Reliability**: The hospital aims to develop a model that can provide accurate and reliable pneumonia diagnosis, ensuring that patients receive appropriate and timely treatment.
 
-- **Integration with Existing Workflow**: The solution should seamlessly integrate into Safer Health Centre's existing diagnostic workflow, allowing medical professionals to use the automated system as a supplementary tool for diagnosis.
+- **Integration with Existing Workflow**: The solution should seamlessly integrate into Safer Health Center's existing diagnostic workflow, allowing medical professionals to use the automated system as a supplementary tool for diagnosis.
 
 - **Safety and Patient Trust**: Maintaining patient trust and safety is paramount. The developed model must be rigorously tested and validated to ensure it aligns with international healthcare standards and provides results that medical professionals can trust.
 
 - **Efficiency and Speed**: The automated system should significantly reduce the time required for diagnosis, enabling prompt treatment decisions and potentially saving lives in critical cases.
 
-In light of these challenges, the project aims to build a deep neural network model for image classification that can accurately determine whether a pediatric patient has pneumonia based on chest x-ray images. This model will contribute to Safer Health Centre's mission of providing advanced, trustworthy, and efficient healthcare services while upholding the highest standards of patient care and safety
+In light of these challenges, the project aims to build a deep neural network model for image classification that can accurately determine whether a pediatric patient has pneumonia based on chest x-ray images. This model will contribute to Safer Health Center's mission of providing advanced, trustworthy, and efficient healthcare services while upholding the highest standards of patient care and safety
 
 
 
@@ -44,19 +44,19 @@ The dataset's meticulous organization into training, testing, and validation sub
 
 - **Validation**: It aids in fine-tuning the model's hyperparameters and ensuring its robustness by assessing performance on a distinct set of data.
 
-The availability of both normal and pneumonia-affected cases within this dataset offers a comprehensive foundation for building a reliable pneumonia detection model, contributing to Safer Health Centre's mission of leveraging advanced technology to improve patient care and diagnosis accuracy.
+The availability of both normal and pneumonia-affected cases within this dataset offers a comprehensive foundation for building a reliable pneumonia detection model, contributing to Safer Health Center's mission of leveraging advanced technology to improve patient care and diagnosis accuracy.
 
 ## Data Visualization
 
 Below is a plot of X-ray images of normal and infected lungs. The images unveil conspicuous regions of opacity or consolidation within the lung tissue of the infected lungs.
 
-![Imabalance](https://github.com/foaxy/X-ray_Image_Classification/blob/master/Images/imbalance.png)
+![Images](https://github.com/foaxy/X-ray_Image_Classification/blob/master/Images/sample_images.png)
 
 ## Data Exploration
 
 The train data seems imbalanced . To increase the number of training examples, we will use data augmentation.
 
-![Images](https://github.com/foaxy/X-ray_Image_Classification/blob/master/Images/sample_images.png)
+![Imabalance](https://github.com/foaxy/X-ray_Image_Classification/blob/master/Images/imbalance.png)
 
 ## Data Modelling
 
@@ -86,7 +86,7 @@ The displayed confusion matrix above provides insights into the classification r
 
 ## Recommendation
 
-In light of the business understanding and problem statement provided, we strongly recommend proceeding with the development and implementation of a deep learning model for pneumonia classification from chest X-ray images. This initiative aligns seamlessly with Safer Health Centre's mission to enhance patient care, diagnosis accuracy, and overall healthcare services. Here are key reasons to support this recommendation:
+In light of the business understanding and problem statement provided, we strongly recommend proceeding with the development and implementation of a deep learning model for pneumonia classification from chest X-ray images. This initiative aligns seamlessly with Safer Health Center's mission to enhance patient care, diagnosis accuracy, and overall healthcare services. Here are key reasons to support this recommendation:
 
 - **Improved Accuracy and Reliability**: By leveraging advanced technology, Safer Health Centre can develop a model that provides accurate and reliable pneumonia diagnoses. This ensures that patients receive timely and appropriate treatment, which is crucial for their well-being.
 
@@ -98,4 +98,4 @@ In conclusion, the development and implementation of a deep learning model for p
 
 ## Non-Technical Presentation
 
-Click here [Link](https://docs.google.com/presentation/d/1Sgbs_X1BPQPpGx0ROMIyjm3qvhVgisnv88GU7RviOTM/edit?usp=sharing) to view the non-technical presentation.
+Click here [Link](https://www.canva.com/design/DAFuu1BdSwY/tYmmTkHxe95FACxpsmG96Q/edit?utm_content=DAFuu1BdSwY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) to view the non-technical presentation.
