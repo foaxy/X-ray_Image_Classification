@@ -32,9 +32,9 @@ The dataset provided for this project comprises chest X-ray images of pediatric 
 
 Within these directories, the data is categorized into two primary groups:
 
-- 1. **Normal**: This category consists of chest X-ray images depicting pediatric patients with healthy lungs.
+- **Normal**: This category consists of chest X-ray images depicting pediatric patients with healthy lungs.
 
-- 2. **Pneumonia**:These images reflect conditions characterized by lung infections or inflammations.
+- **Pneumonia**:These images reflect conditions characterized by lung infections or inflammations.
 
 The dataset's meticulous organization into training, testing, and validation subsets ensures that it can be effectively employed for the following purposes:
 
