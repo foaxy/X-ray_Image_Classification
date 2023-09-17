@@ -1,6 +1,6 @@
 ## Pneumonia Detection from X-ray Images using Deep Learning
 
-![home](https://github.com/foaxy/Phase2_Project/blob/main/Images/home.jpg)
+
 
 ## Business Understanding
 
@@ -46,14 +46,29 @@ The dataset's meticulous organization into training, testing, and validation sub
 
 The availability of both normal and pneumonia-affected cases within this dataset offers a comprehensive foundation for building a reliable pneumonia detection model, contributing to Safer Health Centre's mission of leveraging advanced technology to improve patient care and diagnosis accuracy.
 
+## Data Visualization
+
+Below is a plot of X-ray images of normal and infected lungs. The images unveil conspicuous regions of opacity or consolidation within the lung tissue of the infected lungs.
+
+![Imabalance](https://github.com/foaxy/X-ray_Image_Classification/blob/master/Images/imbalance.png)
+
+## Data Exploration
+
+The train data seems imbalanced . To increase the number of training examples, we will use data augmentation.
+
+![Images](https://github.com/foaxy/X-ray_Image_Classification/blob/master/Images/sample_images.png)
 
 ## Data Modelling
 
 ### Baseline model
 
-The dense model achieved a test accuracy of 78.04%, indicating that it can classify the test data with a reasonable level of accuracy. However, the test loss of 0.4762 suggests that there is still room for improvement, and further optimization or tuning of the model may be beneficial to reduce this loss and potentially increase accuracy. 
+![Baseline_Model](https://github.com/foaxy/X-ray_Image_Classification/blob/master/Images/dense_curves.png)
+
+The dense model achieved a test accuracy of 78.04%, indicating that it can classify the test data with a reasonable level of accuracy. However, the test loss of 0.4762 suggests that there is still room for improvement, and further optimization or tuning of the model may be beneficial to reduce this loss and potentially increase accuracy.
 
 ### CNN Model
+
+![CNN_Model](https://github.com/foaxy/X-ray_Image_Classification/blob/master/Images/cnn_curves.png)
 
 > **Test Loss**: The test loss for the CNN model is 0.3408. This is significantly lower than the test loss of the dense model (0.4762). A lower test loss indicates that the CNN model's predictions are, on average, closer to the true labels in the test dataset. This suggests that the CNN model is better at capturing the underlying patterns and features in the data.
 
@@ -64,6 +79,10 @@ In comparison to the dense model, the CNN model demonstrates superior performanc
 ## Conclusion
 
 The dense model achieved a test accuracy of 78.04% with a test loss of 0.4762, while the CNN model outperformed it significantly, attaining a higher test accuracy of 88.62% and a notably lower test loss of 0.3408. These results underscore the effectiveness of Convolutional Neural Networks (CNNs) in image classification tasks, as they are specifically designed to capture intricate spatial patterns and hierarchical features within images. Therefore, when dealing with image data as in our case, the CNN model is the preferred choice due to its superior performance in both accuracy and loss compared to the dense model. 
+
+![Confusion_matrix](https://github.com/foaxy/X-ray_Image_Classification/blob/master/Images/c_matrix.png)
+
+The displayed confusion matrix above provides insights into the classification results. It shows that 264 predictions successfully identified X-rays as pneumonia cases, constituting true positives. 
 
 ## Recommendation
 
